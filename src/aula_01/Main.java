@@ -1,3 +1,5 @@
+package aula_01;
+
 public class Main {
     // método = função
     // o método principal é resposável por dar inicio a execução de um programa em java
