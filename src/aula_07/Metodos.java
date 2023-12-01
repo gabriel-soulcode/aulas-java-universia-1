@@ -32,9 +32,11 @@ public class Metodos {
     Computador comp = new Computador();
     comp.ligar();
     comp.executar("Visual Studio Code");
+
+    System.out.println("\u001B[32mHello World\u001B[0m");
   }
 }
 
-// Metodos metodos = new Metodos();
-// metodos.main(); // membro do objeto (sem static)
+// Metodos objMetodos = new Metodos(); //  criação do objeto metodos
+// objMetodos.main(); // membro do objeto (sem static)
 // Metodos.main(); // membro da classe (com static)
