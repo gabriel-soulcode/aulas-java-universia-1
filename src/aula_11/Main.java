@@ -34,5 +34,18 @@ public class Main {
       600
     );
     System.out.println(fundamentosJava.resumo);
+
+    // Referência de Objetos
+    Livro teste1 = new Livro("Titulo Teste", "Autor Teste");
+    Livro teste2 = teste1; // copia da referencia do objeto
+    teste2.titulo = "Novo Titulo Teste";
+    System.out.println(teste1.titulo); // Novo Titulo Teste
+    System.out.println(teste2.titulo); // Novo Titulo Teste
+
+    int a = 3;
+    int b = a; // "b" faz cópia de "a"
+    b += 2;
+    System.out.println(b); // 5
+    System.out.println(a); // 3
   }
 }
